@@ -10,10 +10,10 @@ import java.util.List;
 public class GreetingService {
 
     private final List<Greeting> greetingList = new ArrayList<>(Arrays.asList(
-            new Greeting("1", "Hello World"),
-            new Greeting("2", "Hallo Welt"),
-            new Greeting("3", "Ciao Mondo"),
-            new Greeting("4", "Hola Mundo")
+            new Greeting("1", "Hello, World"),
+            new Greeting("2", "Hallo, Welt"),
+            new Greeting("3", "Ciao, Mondo"),
+            new Greeting("4", "Hola, Mundo")
     ));
 
     public List<Greeting> getGreetingList(){
